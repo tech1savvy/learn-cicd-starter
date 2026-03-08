@@ -96,5 +96,6 @@ func main() {
 	}
 
 	log.Printf("Serving on port: %s\n", port) // #nosec G706
+
 	log.Fatal(srv.ListenAndServe())
 }
